@@ -23,7 +23,7 @@ RUN chmod +x /usr/bin/rancher
 # Download jet CLI
 FROM alpine:3.7 AS jet
 
-ARG JET_VERSION=2.6.1
+ARG JET_VERSION=1.19.3
 ENV JET_URL=https://s3.amazonaws.com/codeship-jet-releases/${JET_VERSION}/jet-linux_amd64_${JET_VERSION}.tar.gz
 
 RUN apk add --no-cache curl
