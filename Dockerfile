@@ -33,7 +33,7 @@ RUN chmod +x /usr/bin/jet
 # Add all CLIs and additional scripts
 FROM alpine:3.7
 
-RUN apk add --no-cache ca-certificates
+RUN apk add --no-cache ca-certificates expect
 
 COPY --from=rancher_compose /usr/bin/rancher-compose /usr/bin/
 COPY --from=rancher_cli /usr/bin/rancher /usr/bin/
