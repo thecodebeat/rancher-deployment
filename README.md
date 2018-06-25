@@ -1,5 +1,5 @@
-Docker Cloud 🐳 + Codeship ⚓️ = ❤️
+Rancher 🐄 + Codeship ⚓️ = ❤️
 ---
 
-The purpose of this container is to allow interacting with Docker Cloud from
+The purpose of this container is to allow interacting with Rancher from
 Codeship's Jet stack.
